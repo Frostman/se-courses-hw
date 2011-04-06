@@ -1,0 +1,7 @@
+cc -std=c99 -I/se-courses/include -L/se-courses/lib -I/usr/loca\
+l/include -L/usr/local/lib -lspelling -laspell -o spellcheck
+spellcheck.c && env\
+ LD_LIBRARY_PATH=/se-courses/lib ./spellcheck <
+ /se-courses/testcases/spellcheck\
+ /case01
+ 
